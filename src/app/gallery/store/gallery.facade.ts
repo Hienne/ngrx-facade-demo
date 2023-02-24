@@ -24,7 +24,6 @@ export class GalleryFacade {
     }
 
     init() {
-        console.log('huhu');
         this.store.dispatch(getGalleries());
     }
 }

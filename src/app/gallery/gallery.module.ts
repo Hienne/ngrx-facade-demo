@@ -22,7 +22,7 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forChild(routes),
     StoreModule.forFeature('gallery',  galleryReducer),
-    EffectsModule.forFeature([GalleryEffect])
+    EffectsModule.forFeature([GalleryEffect]),
   ],
   providers: []
 })
