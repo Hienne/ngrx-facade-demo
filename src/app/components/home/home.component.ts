@@ -23,6 +23,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.store.select(selectRouteData).subscribe(res => console.log(res))
+    console.log('test pipeline');
   }
 
   // Use normal Ngrx
